@@ -1,1 +1,74 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>SHIMS-GH | Home</title></head><body>Home Page Placeholder</body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SHIMS-GH | Home</title>
+
+<style>
+body {
+    font-family: Roboto, Arial; margin:0; background:#F5F5F5; color:#1F1F1F;
+}
+:root { --primary:#004D99; --teal:#0097A7; --sky:#E3F2FD; --mint:#C8F3E0; }
+header {
+    background:var(--primary); color:white; padding:60px 20px; text-align:center;
+}
+nav {
+    background:#fff; padding:10px 20px; text-align:center;
+}
+nav a {
+    margin:0 15px; text-decoration:none; color:var(--primary); font-weight:bold;
+}
+.section {
+    background:white; margin:40px 10%; padding:40px; border-radius:12px;
+}
+h1,h2 { font-family:Montserrat, sans-serif; }
+.card-grid {
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+.card {
+    background:var(--sky); padding:20px; border-radius:12px; text-align:center;
+}
+footer {
+    background:var(--primary); color:white; text-align:center; padding:20px; margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>SHIMS-GH</h1>
+    <p>Digital Health Innovation for Students Living with Sickle Cell Disease</p>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="intervention.html">Intervention</a>
+    <a href="modules.html">Modules</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="section">
+    <h2>What is SHIMS-GH?</h2>
+    <p>SHIMS-GH is a school health information system that supports early detection, crisis
+       prevention, and coordinated care for students with Sickle Cell Disease in SHS boarding schools.</p>
+</div>
+
+<div class="section">
+    <h2>Core Features</h2>
+    <div class="card-grid">
+        <div class="card"><h3>Health Profiles</h3><p>Digital SCD history, triggers & medication.</p></div>
+        <div class="card"><h3>Daily Monitoring</h3><p>Pain, hydration, temperature & symptoms.</p></div>
+        <div class="card"><h3>Emergency Module</h3><p>Alerts, crisis protocol & readiness tools.</p></div>
+        <div class="card"><h3>Telemedicine</h3><p>Nurse–doctor consultations & referrals.</p></div>
+    </div>
+</div>
+
+<footer>
+    © 2025 SHIMS-GH — Strengthening School Health Systems
+</footer>
+
+</body>
+</html>
